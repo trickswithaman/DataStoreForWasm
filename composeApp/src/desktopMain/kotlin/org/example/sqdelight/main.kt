@@ -9,8 +9,8 @@ fun main() = application {
         onCloseRequest = ::exitApplication,
         title = "SqDelightTest",
     ) {
-        val viewModel: SessionViewModel by inject()
+//        val viewModel: SessionViewModel by inject()
 
-        App(viewModel)
+  //      App(viewModel)
     }
 }
